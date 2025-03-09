@@ -12,6 +12,6 @@ console.log(x)
 console.log(y)
 
 
-let w = "texto";
-w += ", mais um texto" 
+let w = "texto, \n";
+w += "mais um texto" 
 console.log(w)
