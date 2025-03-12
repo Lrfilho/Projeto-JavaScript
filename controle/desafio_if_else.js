@@ -8,16 +8,14 @@ if (operacao === '+') {
     resulado = a + b;
 
 } else if (operacao === '-') {
-
     resulado = a - b;
-
 } else if (operacao === '*') {
     resulado = a * b;
 } else if (operacao === '/') {
     resulado = a / b;
 } else if (operacao === '%') {
     resulado = a % b;
-}else {
+} else {
     resulado = 'Tipo de informação fornecida não valida!'
 }
 
