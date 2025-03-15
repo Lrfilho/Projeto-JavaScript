@@ -5,7 +5,7 @@
 
 //}
 
-for (let controle = 1; controle <= 5;  controle ++) {
+for (let controle = 1; controle <= 7;  controle ++) {
     console.log(controle);
     
 }
