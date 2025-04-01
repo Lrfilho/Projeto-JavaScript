@@ -10,7 +10,7 @@
     E -> 1
     F -> 0 */
 
-let nota = 9 ;
+let nota = 20;
 
 switch (nota) {
 
@@ -44,11 +44,11 @@ switch (nota) {
     case 1:
         console.log('Nota E')
         break;
-        case 0:
-            console.log('Nota F' )
+    case 0:
+        console.log('Nota F')
 
 
-        
+
 
     default:
         console.log('Nota inválida!');
