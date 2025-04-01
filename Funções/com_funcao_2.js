@@ -14,11 +14,11 @@ const d2 = 25;
 const m2 = 12;
 const a2 = 2025;
 
-function ExibirData2() {
+function ExibirData( d, m, a) {
 
-    console.log(`${d2}/${m2}/${a2}`);
+    console.log(`${d}/${m}/${a}`);
 
 }
 
-ExibirData1()
-ExibirData2()
+ExibirData( d1, m1, a1)
+ExibirData(d2, m2, a2)
