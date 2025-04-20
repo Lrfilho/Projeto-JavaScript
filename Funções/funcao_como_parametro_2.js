@@ -1,6 +1,6 @@
-function executar(fn) {
+function executar(fn, n1 = 10, n2 = 10) {
     if(typeof fn === "function") {
-        console.log(fn(90, 40));
+        console.log(fn(n1, n2));
     }
 }
 
@@ -21,7 +21,7 @@ function dividir(a, b) {
     return a / b;
 }
 
-executar(somar);
-executar(subtrair);
-executar(multiplicar);
-executar(dividir);
+executar(somar, 90, 50);
+executar(subtrair, 90, 60);
+executar(multiplicar, 400, 500);
+executar(dividir, 90, 70);
