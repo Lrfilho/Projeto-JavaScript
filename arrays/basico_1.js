@@ -6,7 +6,7 @@ console.log(notas);
 console.log (notas[0]);
 console.log (notas[3]);
 console.log (notas[5]);
-console.log (notas[600]);
+console.log (notas[4]);
 
 notas[4] = 8.7;
 
