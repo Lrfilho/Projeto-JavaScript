@@ -4,7 +4,9 @@ numeros[3] = 2000;
 numeros.push(6, 7);
 
 
-console.log(numeros.join(' - '));
+console.log(numeros.indexOf(3, 2))
+console.log(numeros.indexOf(3,))
+console.log(numeros.join('  '));
 console.log(numeros)
 console.log(numeros.includes(100))
 
